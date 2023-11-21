@@ -1,2 +1,2 @@
 # IB2QTI
- Convert IB bank to QTI for canvas
+ Convert IB questionbank to QTI for canvas
