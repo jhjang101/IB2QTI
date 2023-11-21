@@ -1,0 +1,205 @@
+1.	A ball attached to a string is made to rotate with constant speed along
+	a horizontal circle. The string is attached to the ceiling and makes an
+	angle of *θ *° with the vertical. The tension in the string is *T*.
+	
+	![](media/image1.png)
+	
+	What is correct about the horizontal component and vertical component of
+	the net force on the ball?
+	
+	 
+	
+	|     |                           |                           |
+	|-----|---------------------------|---------------------------|
+	|     | **Horizontal component**  | **Vertical component**    |
+	| A.  | $T\text{cos}\,\theta$   | $T\,\text{sin}\,\theta$ |
+	| B.  | $T\,\text{sin}\,\theta$ | $T\text{cos}\,\theta$   |
+	| C.  | $T\text{cos}\,\theta$   | 0                         |
+	| D.  | $T\,\text{sin}\,\theta$ | 0                         |
+	
+	
+a)	A 
+b)	B 
+c)	C 
+*d)	D 
+
+2.	A block of mass 2.0 kg accelerates uniformly at a rate of
+	1.0 m s<sup>−2</sup> when a force of 4.0 N acts on it.  
+	The force is doubled while resistive forces stay the same. What is the
+	block’s acceleration?
+	
+a)	4.0 m s<sup>−2</sup>
+
+*b)	3.0 m s<sup>−2</sup>
+
+c)	2.0 m s<sup>−2</sup>
+
+d)	1.0 m s<sup>−2</sup>
+
+
+
+3.	What are the units of specific energy and energy density?
+	
+	![](media/image2.png)
+	
+	
+a)	A 
+*b)	B 
+c)	C 
+d)	D 
+
+4.	Which quantity has the same units as those for energy stored per unit
+	volume?
+	
+a)	Density
+
+b)	Force
+
+c)	Momentum
+
+*d)	Pressure
+
+
+
+5.	Which quantity has the fundamental SI units of kg m<sup>–1</sup>
+	s<sup>–2</sup>?
+	
+a)	Energy  
+b)	Force  
+c)	Momentum  
+*d)	Pressure
+
+
+
+6.	Light of frequency $f$ is incident on a metallic surface of work
+	function *W*. Photoelectrons with a maximum kinetic energy
+	*E*<sub>max</sub> are emitted. The frequency of the incident light is
+	changed to 2$f$.
+	
+	What is true about the maximum kinetic energy and the work function?
+	
+	 
+	
+	|     |                                 |                   |
+	|-----|---------------------------------|-------------------|
+	|     | **Maximum kinetic energy**      | **Work function** |
+	| A.  | less than 2*E*<sub>max</sub>    | unchanged         |
+	| B.  | less than 2*E*<sub>max</sub>    | greater than *W*  |
+	| C.  | greater than 2*E*<sub>max</sub> | unchanged         |
+	| D.  | greater than 2*E*<sub>max</sub> | greater than *W*  |
+	
+	
+a)	A 
+b)	B 
+*c)	C 
+d)	D 
+
+7.	A student measures the time for 20 oscillations of a pendulum. The
+	experiment is repeated four times. The measurements are:
+	
+	10.45 s
+	
+	10.30 s
+	
+	10.70 s
+	
+	10.55 s
+	
+	What is the best estimate of the uncertainty in the average time for 20
+	oscillations?
+	
+a)	0.01 s
+
+b)	0.05 s
+
+*c)	0.2 s
+
+d)	0.5 s
+
+
+
+8.	A student measures the length *l* and width *w* of a rectangular table
+	top.
+	
+	What is the absolute uncertainty of the perimeter of the table top?
+	
+	                   
+	![](media/image3.png)
+	
+a)	$0.3\,\text{cm}$
+
+*b)	$0.6\,\text{cm}$
+
+c)	$\text{1.2}\,\text{cm}$
+
+d)	$\text{2.4}\,\text{cm}$
+
+
+
+9.	A student wants to determine the angular speed ω of a rotating object.
+	The period T is 0.50 s ±5 %. The angular speed ω is
+	
+	$\omega = \frac{2\pi}{T}$ 
+	
+	What is the percentage uncertainty of ω?
+	
+a)	0.2 %
+
+b)	2.5 %
+
+*c)	5 %
+
+d)	10 %
+
+
+
+10.	A student measures the radius *R* of a circular plate to determine its
+	area. The absolute uncertainty in *R* is Δ*R*.
+	
+	What is the **fractional** uncertainty in the area of the plate?
+	
+*a)	$\frac{2\Delta R}{R}$
+
+b)	$\left( \frac{\Delta R}{R} \right)^{2}$
+
+c)	$\frac{2\pi\Delta R}{R}$
+
+d)	$\pi\left( \frac{\Delta R}{R} \right)^{2}$
+
+ 
+
+
+
+11.	A proton has momentum 10<sup>-20</sup> N s and the uncertainty in the
+	position of the proton is 10<sup>-10</sup> m. What is the minimum
+	**fractional** uncertainty in the momentum of this proton?
+	
+a)	5 × 10<sup>-25</sup>
+
+b)	5 × 10<sup>-15</sup>
+
+*c)	5 × 10<sup>-5</sup>
+
+d)	2 × 10<sup>4</sup>
+
+
+
+12.	An object of mass 2.0 kg rests on a rough surface. A person pushes the
+	object in a straight line with a force of 10 N through a distance *d*.
+	
+	![](media/image4.png)
+	
+	The resultant force acting on the object throughout *d* is 6.0 N.
+	
+	What is the value of the sliding coefficient of friction $\mu$ between
+	the surface and the object and what is the acceleration *a* of the
+	object?
+	
+	![](media/image5.png)
+	
+	
+*a)	A 
+b)	B 
+c)	C 
+d)	D 
+
