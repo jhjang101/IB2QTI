@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QTI Converter for IB Questionbank DOCX Files
 
 ## Introduction
@@ -38,3 +39,7 @@ Contributions to improve the script's functionality or documentation are welcome
 ## Links
 - Pandoc documentation: https://pandoc.org/
 - text2qti documentation: https://github.com/gpoore/text2qti
+=======
+# IB2QTI
+ Convert IB questionbank to QTI for canvas
+>>>>>>> e4c1dae9954858944c5babc62b25eb0d0e191f27
