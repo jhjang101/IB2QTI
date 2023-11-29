@@ -52,7 +52,7 @@ def fix_image(question):
     html-taged image to markdown-taged image
     '''
     start_tag = 'src="./(.*?)"'
-    end_tag = 'in" />'
+    end_tag = '" />'
 
     for i, line in enumerate(question):
         if re.search(start_tag, line):
@@ -66,33 +66,21 @@ def fix_image(question):
     return(question)
 
 
-def format_answers(question, string):
-    '''
-    use this function in fix_answers function
-    A.    to a)
-    '''
-    for i, line in enumerate(question):
-        if line.startswith(f'A.{string}'):
-            question[i] = line.replace(f'A.{string}', 'a)\t')
-        elif line.startswith(f'B.{string}'):
-            question[i] = line.replace(f'B.{string}', 'b)\t')
-        elif line.startswith(f'C.{string}'):
-            question[i] = line.replace(f'C.{string}', 'c)\t')
-        elif line.startswith(f'D.{string}'):
-            question[i] = line.replace(f'D.{string}', 'd)\t')
-        else:
-            pass
-    return(question)
-
-
 def fix_answers(question):
     '''
-    A.xa0  to a) 
-    A.     to a)
+    A.space  to a) 
     '''
-    strings = ['\xa0 ', '\xa0\xa0', '\xa0', '  ', ' ']
-    for string in strings:
-        format_answers(question, string)
+    for i, line in enumerate(question):
+        if bool(re.match(r'A\.\s+', line)):
+            question[i] = re.sub(r'A\.\s+','a)\t', line)
+        elif bool(re.match(r'B\.\s+', line)):
+            question[i] = re.sub(r'B\.\s+','b)\t', line)
+        elif bool(re.match(r'C\.\s+', line)):
+            question[i] = re.sub(r'C\.\s+','c)\t', line)
+        elif bool(re.match(r'D\.\s+', line)):
+            question[i] = re.sub(r'D\.\s+','d)\t', line)
+        else:
+            pass
     return(question)
 
 
@@ -142,7 +130,7 @@ def slice(question):                ### question number, key
 
 if __name__ == "__main__":
 
-    questions = read_questions('test11gfm')
+    questions = read_questions('testgfm.txt')
 
 
     for question in questions:

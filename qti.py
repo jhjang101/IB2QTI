@@ -29,7 +29,7 @@ def pandoc(file):
     fileout = file +'gfm.txt'
     filepath = os.path.join(f'{file}/',fileout)
     subprocess.run(['pandoc', f'--extract-media=.', filein, '-t', 'gfm', '-o', filepath], shell=True)
-    time.sleep(0.1)
+    time.sleep(0.5)
     shutil.move('media', file)
 
 def reformat_txt(file):
