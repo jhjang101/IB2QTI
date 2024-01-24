@@ -28,7 +28,7 @@ def pandoc(file):
     filein = file + '.docx'
     fileout = file +'gfm.txt'
     filepath = os.path.join(f'{file}/',fileout)
-    subprocess.run(['pandoc', f'--extract-media=.', filein, '-t', 'gfm', '-o', filepath], shell=True)
+    subprocess.run(['pandoc', "--wrap=none", f'--extract-media=.', filein, '-t', 'gfm', '-o', filepath], shell=True)
     time.sleep(0.5)
     shutil.move('media', file)
 
