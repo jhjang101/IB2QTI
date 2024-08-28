@@ -30,6 +30,21 @@ def read_questions(file):
     return(questions)
 
 
+def remove_duplicates(questions):
+    '''
+    function to remove duplicate questions.
+    '''
+    stems = []
+    new_questions = []
+    for question in questions:
+        stem = question[2]
+        if stem not in stems:
+            stems.append(stem)
+            new_questions.append(question)
+
+    return new_questions
+
+
 def remove_emptyline(question):
     '''
     remove a line that contains [1]
@@ -130,22 +145,28 @@ def slice(question):                ### question number, key
 
 if __name__ == "__main__":
 
-    questions = read_questions('testgfm.txt')
+    questions = read_questions('A.2 Forces and momentum (2025)gfm.txt')
 
+    res = remove_duplicates(questions)
+    for i in res:
+        print(i[2])
 
-    for question in questions:
-        question = remove_emptyline(question)
-        question = fix_equation(question)
-        question = fix_image(question)
-        question = fix_answers(question)
-        question = add_answer(question)
-        num, key, stem, answers = slice(question)
+    print(len(questions))
+    print(len(res))
 
-        with open('out.txt', 'a', encoding='utf-8') as fo:
-            fo.writelines(num)
-            fo.writelines(stem)
-            fo.writelines(answers)
-            fo.writelines(['\n'])
+    # for question in questions:
+    #     question = remove_emptyline(question)
+    #     question = fix_equation(question)
+    #     question = fix_image(question)
+    #     question = fix_answers(question)
+    #     question = add_answer(question)
+    #     num, key, stem, answers = slice(question)
+
+    #     with open('out.txt', 'a', encoding='utf-8') as fo:
+    #         fo.writelines(num)
+    #         fo.writelines(stem)
+    #         fo.writelines(answers)
+    #         fo.writelines(['\n'])
 
 
 # question = questions[7]

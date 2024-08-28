@@ -39,6 +39,7 @@ def reformat_txt(file):
     fileoutpath = os.path.join(f'{file}/',fileout)
 
     questions = txt.read_questions(fileinpath)
+    questions = txt.remove_duplicates(questions)
 
     for question in questions:
         question = txt.remove_emptyline(question)
