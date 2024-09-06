@@ -27,6 +27,11 @@ This Python script automates the process of converting DOCX files specifically g
 4. Follow the on-screen prompts to provide the DOCX filename.
 5. The script will convert the IB Questionbank DOCX file and create the corresponding QTI zip file in the same directory.
 
+## First Time Usage
+When you run text2qti for the first time, it will attempt to create a configuration file called .text2qti.bespon in your home or user directory. It will also ask for an institutional LaTeX rendering URL. This is only needed if you plan to use LaTeX math and if the default URL /equation_images/ will not work with your system.
+- if you use Canvas, log into your account and look in the browser address bar. You will typically see an address that starts with something like institution.instructure.com/ or canvas.institution.edu/, with institution replaced by the name of your school or an abbreviation for it. The LateX rendering URL that you want to use will then be something like https://institution.instructure.com/equation_images/ or https://canvas.institution.edu/equation_images/, with institution replaced by the appropriate value for your school. If the URL is like the second form, you may need to replace the .edu domain with the appropriate value for your institution.
+- please refer for more details [here](https://github.com/gpoore/text2qti?tab=readme-ov-file#usage)
+  
 ## Notes
 
 - This script is specifically designed for single answer multiple-choice questions, which is the predominant question type in the IB Questionbank.
