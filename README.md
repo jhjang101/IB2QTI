@@ -12,8 +12,8 @@ This Python script automates the process of converting DOCX files specifically g
 
 ## Prerequisites
 1. Downlolad and install Python 3.9+ from here: https://www.python.org/
-2. Download and install the latest version of Pandoc from here: https://pandoc.org/
-3. Install text2qti using pip:
+2. Download and install Pandoc 3.1.9+ from here: https://pandoc.org/
+3. Install text2qti 0.7.1 using pip:
 
         $ pip install text2qti
 
